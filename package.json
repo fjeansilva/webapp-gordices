@@ -5,7 +5,8 @@
   "dependencies": {
     "cross-fetch": "^2.2.2",
     "react": "^16.4.2",
-    "react-dom": "^16.4.2"
+    "react-dom": "^16.4.2",
+    "react-input-mask": "^2.0.3"
   },
   "devDependencies": {
     "react-scripts": "1.1.4"
