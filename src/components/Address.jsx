@@ -38,6 +38,15 @@ class Address extends Component {
                 value={data.bairro}
               />
             </div>
+            <div className="" style={{ padding: '0'}}>
+              <Input
+                label="Logradouro"
+                type="text"
+                name="public_place"
+                disabled
+                value={data.logradouro}
+              />
+            </div>
             <div className="form-group row" style={{ padding: '0'}}>
               <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                 <Input
@@ -52,7 +61,7 @@ class Address extends Component {
                 <Input
                   label="Número"
                   type="text"
-                  name="numero"
+                  name="number"
                   errorMessage="informe um número"
                   validate={(value) => /\d/.test(value)}
                   updateFormData={updateAddress}
